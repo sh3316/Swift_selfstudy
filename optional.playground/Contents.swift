@@ -42,9 +42,19 @@ import Darwin
 //    print("The string \"\(possibleNumber)\" couldn't be converted to an integer")
 //}
 //// Prints "The string "123" has an integer value of 123"
+//if let firstNumber = Int("4"), let secondNumber = Int("42"), firstNumber < secondNumber && secondNumber < 100 {
+//    print("\(firstNumber) < \(secondNumber) < 100")
+//}
 
-let possibleString: String? = "An optional string."
-let forcedString: String = possibleString! // requires an exclamation point
 
-let assumedString: String! = "An implicitly unwrapped optional string."
-let implicitString: String = assumedString // no need for an exclamation point
+
+
+let possibleString: Int? = 123
+let possiint : Int = possibleString!
+
+let assumedString: String? = "An implicitly unwrapped optional string."
+let implicitString: String = assumedString! // no need for an exclamation point
+
+var email: String! = nil
+print(email)
+print(type(of: email))
