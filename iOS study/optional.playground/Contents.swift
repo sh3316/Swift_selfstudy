@@ -56,5 +56,4 @@ let assumedString: String? = "An implicitly unwrapped optional string."
 let implicitString: String = assumedString! // no need for an exclamation point
 
 var email: String! = nil
-print(email)
 print(type(of: email))
