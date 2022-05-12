@@ -57,3 +57,4 @@ let implicitString: String = assumedString! // no need for an exclamation point
 
 var email: String! = nil
 print(type(of: email))
+
