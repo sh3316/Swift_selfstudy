@@ -1,14 +1,14 @@
 //
-//  weather_symbolTests.swift
-//  weather_symbolTests
+//  weatherTests.swift
+//  weatherTests
 //
-//  Created by Seunghui Huh on 2022/05/11.
+//  Created by Seunghui Huh on 2022/05/13.
 //
 
 import XCTest
-@testable import weather_symbol
+@testable import weather
 
-class weather_symbolTests: XCTestCase {
+class weatherTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

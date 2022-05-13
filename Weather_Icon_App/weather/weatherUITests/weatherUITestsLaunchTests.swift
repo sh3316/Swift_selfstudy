@@ -1,13 +1,13 @@
 //
-//  weather_symbolUITestsLaunchTests.swift
-//  weather_symbolUITests
+//  weatherUITestsLaunchTests.swift
+//  weatherUITests
 //
-//  Created by Seunghui Huh on 2022/05/11.
+//  Created by Seunghui Huh on 2022/05/13.
 //
 
 import XCTest
 
-class weather_symbolUITestsLaunchTests: XCTestCase {
+class weatherUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

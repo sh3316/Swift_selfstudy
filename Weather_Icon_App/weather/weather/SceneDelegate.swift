@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  weather_symbol
+//  weather
 //
-//  Created by Seunghui Huh on 2022/05/11.
+//  Created by Seunghui Huh on 2022/05/13.
 //
 
 import UIKit
