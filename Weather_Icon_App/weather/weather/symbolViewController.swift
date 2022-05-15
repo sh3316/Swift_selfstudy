@@ -15,6 +15,7 @@ class symbolViewController: UIViewController {
     
     func reload() {
         let symbol = symbols.randomElement()!
+        
         imageview.image = UIImage(systemName: symbol)
         labelview.text = symbol
     }

@@ -1,13 +1,13 @@
 //
-//  Weather_Location_AppUITestsLaunchTests.swift
-//  Weather_Location_AppUITests
+//  weather_locationUITestsLaunchTests.swift
+//  weather_locationUITests
 //
-//  Created by Seunghui Huh on 2022/05/13.
+//  Created by Seunghui Huh on 2022/05/14.
 //
 
 import XCTest
 
-class Weather_Location_AppUITestsLaunchTests: XCTestCase {
+class weather_locationUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

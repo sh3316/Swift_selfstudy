@@ -1,14 +1,14 @@
 //
-//  Weather_Location_AppTests.swift
-//  Weather_Location_AppTests
+//  weather_locationTests.swift
+//  weather_locationTests
 //
-//  Created by Seunghui Huh on 2022/05/13.
+//  Created by Seunghui Huh on 2022/05/14.
 //
 
 import XCTest
-@testable import Weather_Location_App
+@testable import weather_location
 
-class Weather_Location_AppTests: XCTestCase {
+class weather_locationTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

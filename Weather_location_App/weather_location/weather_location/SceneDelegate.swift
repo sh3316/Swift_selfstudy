@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  Weather_Location_App
+//  weather_location
 //
-//  Created by Seunghui Huh on 2022/05/13.
+//  Created by Seunghui Huh on 2022/05/14.
 //
 
 import UIKit
