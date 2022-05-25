@@ -5,23 +5,56 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Stock View Controller-->
         <scene sceneID="apY-g2-5WU">
             <objects>
-                <viewController id="H6E-vc-f3h" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StockViewController" id="H6E-vc-f3h" customClass="StockViewController" customModule="StockRank" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fRB-y5-uCR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6eo-Fq-Qvf">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fke-QG-WQg">
+                                    <size key="itemSize" width="414" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U1a-sA-CEw">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="BAz-4h-PDZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="414" height="128"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="VMA-ve-a2I"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VMA-ve-a2I" firstAttribute="trailing" secondItem="6eo-Fq-Qvf" secondAttribute="trailing" id="1CO-0O-4DR"/>
+                            <constraint firstItem="6eo-Fq-Qvf" firstAttribute="leading" secondItem="VMA-ve-a2I" secondAttribute="leading" id="1DW-SG-T1o"/>
+                            <constraint firstItem="6eo-Fq-Qvf" firstAttribute="top" secondItem="VMA-ve-a2I" secondAttribute="top" id="3tH-5A-8eO"/>
+                            <constraint firstItem="VMA-ve-a2I" firstAttribute="bottom" secondItem="6eo-Fq-Qvf" secondAttribute="bottom" id="bgH-ze-8D0"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="collectionview" destination="6eo-Fq-Qvf" id="hbN-Bt-K1W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6GE-h5-51z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-70" y="64"/>
+            <point key="canvasLocation" x="-71.014492753623188" y="63.616071428571423"/>
         </scene>
     </scenes>
     <resources>
