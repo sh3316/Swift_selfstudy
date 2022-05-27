@@ -40,31 +40,58 @@ print(sendmessage(from: "Chris", to: "Sean"))
 //var class3 = class1
 //class3.count = 3
 //print(class1.count)
-class Name {
-    var name = "Song"
+//class Name {
+//    var name = "Song"
+//
+//    func my_name() {
+//        print("my name is \(name)")
+//    }
+//}
+//
+//class Age : Name {
+//    var age:Int = 34
+//}
+//
+//var nai = Age()
+//nai.name
+//nai.name = "Kim"
+//nai.name
+//
+//class Gender: Name {
+//    var gend = "male"
+//    override func my_name() {
+//        print("my gender is \(gend)")
+//    }
+//}
+//
+//let male = Gender()
+//male.gend = "female"
+//male.my_name()
+
+class User {
+    var nickname:String
+    var age:Int
     
-    func my_name() {
-        print("my name is \(name)")
+    init(nickname: String, age:Int){
+        self.nickname = nickname
+        self.age = age
+    }
+    init(age:Int){
+        self.nickname = "Sue"
+        self.age = age
+    }
+    deinit{
+        print("deinit has been activated")
     }
 }
 
-class Age : Name {
-    var age:Int = 34
-}
+var user1 = User(nickname: "Chris", age: 23)
+user1.nickname
+user1.age
 
-var nai = Age()
-nai.name
-nai.name = "Kim"
-nai.name
+var user2 = User(age:23)
+user2.nickname
+user2.age
 
-class Gender: Name {
-    var gend = "male"
-    override func my_name() {
-        print("my gender is \(gend)")
-    }
-}
-
-let male = Gender()
-male.gend = "female"
-male.my_name()
-
+var user3:User? = User(age:23)
+user3 = nil
