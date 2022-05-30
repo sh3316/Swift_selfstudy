@@ -68,30 +68,39 @@ print(sendmessage(from: "Chris", to: "Sean"))
 //male.gend = "female"
 //male.my_name()
 
-class User {
-    var nickname:String
-    var age:Int
-    
-    init(nickname: String, age:Int){
-        self.nickname = nickname
-        self.age = age
-    }
-    init(age:Int){
-        self.nickname = "Sue"
-        self.age = age
-    }
-    deinit{
-        print("deinit has been activated")
-    }
+//class User {
+//    var nickname:String
+//    var age:Int
+//
+//    init(nickname: String, age:Int){
+//        self.nickname = nickname
+//        self.age = age
+//    }
+//    init(age:Int){
+//        self.nickname = "Sue"
+//        self.age = age
+//    }
+//    deinit{
+//        print("deinit has been activated")
+//    }
+//}
+//
+//var user1 = User(nickname: "Chris", age: 23)
+//user1.nickname
+//user1.age
+//
+//var user2 = User(age:23)
+//user2.nickname
+//user2.age
+//
+//var user3:User? = User(age:23)
+//user3 = nil
+
+protocol prot {
+    var name: String {get set}
+    var age: Int {get}
 }
 
-var user1 = User(nickname: "Chris", age: 23)
-user1.nickname
-user1.age
-
-var user2 = User(age:23)
-user2.nickname
-user2.age
-
-var user3:User? = User(age:23)
-user3 = nil
+protocol typeprotocol{
+    static var sometype: Int {get set}
+}
