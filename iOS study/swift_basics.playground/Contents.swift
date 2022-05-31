@@ -96,11 +96,28 @@ print(sendmessage(from: "Chris", to: "Sean"))
 //var user3:User? = User(age:23)
 //user3 = nil
 
-protocol prot {
+protocol protocol1 {
     var name: String {get set}
     var age: Int {get}
 }
 
-protocol typeprotocol{
-    static var sometype: Int {get set}
+
+struct Person: protocol1{
+    var name: String
+    var age: Int
 }
+var chris = Person(name: "c", age: 23)
+
+struct Developer{
+    let name: String
+}
+
+struct Company{
+    let name: String
+    var developer: Developer?
+}
+var developer = Developer(name: "chris")
+var company = Company(name: "Company", developer: developer)
+print(company.developer)
+print(company.developer?.name)
+print(company.developer!.name)
