@@ -96,28 +96,15 @@ print(sendmessage(from: "Chris", to: "Sean"))
 //var user3:User? = User(age:23)
 //user3 = nil
 
-protocol protocol1 {
-    var name: String {get set}
-    var age: Int {get}
+enum ErrorTypes: Error{
+    case unkown
+    case LowBattery(remainBattery:Int)
 }
 
-
-struct Person: protocol1{
-    var name: String
-    var age: Int
-}
-var chris = Person(name: "c", age: 23)
-
-struct Developer{
-    let name: String
+//throw ErrorTypes.LowBattery(remainBattery: 10)
+func battercheck(battery: Int) throws -> String{
+    guard battery >= 20 else { throw ErrorTypes.LowBattery(remainBattery: battery)}
+    guard battery != 0 else { throw ErrorTypes.unkown }
+    return "배터리 정상"
 }
 
-struct Company{
-    let name: String
-    var developer: Developer?
-}
-var developer = Developer(name: "chris")
-var company = Company(name: "Company", developer: developer)
-print(company.developer)
-print(company.developer?.name)
-print(company.developer!.name)
