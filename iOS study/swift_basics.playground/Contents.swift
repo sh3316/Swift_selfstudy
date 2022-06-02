@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 /*
 var onearray: Array<Int> = Array<Int>()
@@ -103,8 +104,28 @@ enum ErrorTypes: Error{
 
 //throw ErrorTypes.LowBattery(remainBattery: 10)
 func battercheck(battery: Int) throws -> String{
-    guard battery >= 20 else { throw ErrorTypes.LowBattery(remainBattery: battery)}
-    guard battery != 0 else { throw ErrorTypes.unkown }
+    guard battery != -1 else { throw ErrorTypes.unkown }
+    guard battery > 20 else { throw ErrorTypes.LowBattery(remainBattery: battery)}
     return "배터리 정상"
 }
 
+//do {
+//    try battercheck(battery: 20)
+//} catch ErrorTypes.unkown {
+//    print("unkonwn")
+//} catch ErrorTypes.LowBattery {
+//    print("low battery")
+//} catch{
+//    "undefined"
+//}
+
+//var errorstatus = try? battercheck(battery: 20)
+//print(errorstatus)
+
+
+let hello = {
+    ()->() in
+    print("hello")
+}
+
+hello()
