@@ -3,7 +3,12 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/seunghuihuh/Desktop/test/iOS%20study/swift_basics.playground#CharacterRangeLen=2128&amp;CharacterRangeLoc=278&amp;EndingColumnNumber=0&amp;EndingLineNumber=131&amp;StartingColumnNumber=0&amp;StartingLineNumber=14&amp;Timestamp=675855057.659743"
+         documentLocation = "file:///Users/seunghuihuh/Desktop/test/iOS%20study/swift_basics.playground#CharacterRangeLen=2328&amp;CharacterRangeLoc=278&amp;EndingColumnNumber=0&amp;EndingLineNumber=139&amp;StartingColumnNumber=0&amp;StartingLineNumber=14&amp;Timestamp=675948993.848788"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/seunghuihuh/Desktop/test/iOS%20study/swift_basics.playground#CharacterRangeLen=6&amp;CharacterRangeLoc=2580&amp;EndingColumnNumber=39&amp;EndingLineNumber=137&amp;StartingColumnNumber=33&amp;StartingLineNumber=137&amp;Timestamp=675948993.848941"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>

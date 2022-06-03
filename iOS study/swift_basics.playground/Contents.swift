@@ -128,4 +128,12 @@ let hello = {
     print("hello")
 }
 
-hello()
+//map, filter, reduce
+let array1 = [0,1,2,3,4]
+let array2 = array1.map{(number) -> Int in
+    return number*2
+}
+
+let array3 = [2,433,341,13,14523,3]
+let filterarray = array3.filter{$0>100}
+print(filterarray)
