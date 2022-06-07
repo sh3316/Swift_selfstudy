@@ -7,68 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F60F52C3284E46AF008D75B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F52C2284E46AF008D75B3 /* AppDelegate.swift */; };
-		F60F52C5284E46AF008D75B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F52C4284E46AF008D75B3 /* SceneDelegate.swift */; };
-		F60F52C7284E46AF008D75B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F52C6284E46AF008D75B3 /* ViewController.swift */; };
-		F60F52CA284E46AF008D75B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60F52C8284E46AF008D75B3 /* Main.storyboard */; };
-		F60F52CC284E46B2008D75B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60F52CB284E46B2008D75B3 /* Assets.xcassets */; };
-		F60F52CF284E46B2008D75B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60F52CD284E46B2008D75B3 /* LaunchScreen.storyboard */; };
-		F60F52DA284E46B2008D75B3 /* QuoteMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F52D9284E46B2008D75B3 /* QuoteMakerTests.swift */; };
-		F60F52E4284E46B2008D75B3 /* QuoteMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F52E3284E46B2008D75B3 /* QuoteMakerUITests.swift */; };
-		F60F52E6284E46B2008D75B3 /* QuoteMakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F52E5284E46B2008D75B3 /* QuoteMakerUITestsLaunchTests.swift */; };
-		F60F532F284F8EBE008D75B3 /* quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F532E284F8EBE008D75B3 /* quotes.swift */; };
+		F6055382284FA7C700136545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6055381284FA7C700136545 /* AppDelegate.swift */; };
+		F6055384284FA7C700136545 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6055383284FA7C700136545 /* SceneDelegate.swift */; };
+		F6055386284FA7C700136545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6055385284FA7C700136545 /* ViewController.swift */; };
+		F6055389284FA7C700136545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6055387284FA7C700136545 /* Main.storyboard */; };
+		F605538B284FA7C700136545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F605538A284FA7C700136545 /* Assets.xcassets */; };
+		F605538E284FA7C700136545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F605538C284FA7C700136545 /* LaunchScreen.storyboard */; };
+		F6055399284FA7C700136545 /* QuoteMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6055398284FA7C700136545 /* QuoteMakerTests.swift */; };
+		F60553A3284FA7C700136545 /* QuoteMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60553A2284FA7C700136545 /* QuoteMakerUITests.swift */; };
+		F60553A5284FA7C700136545 /* QuoteMakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60553A4284FA7C700136545 /* QuoteMakerUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F60F52D6284E46B2008D75B3 /* PBXContainerItemProxy */ = {
+		F6055395284FA7C700136545 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F60F52B7284E46AF008D75B3 /* Project object */;
+			containerPortal = F6055376284FA7C700136545 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F60F52BE284E46AF008D75B3;
+			remoteGlobalIDString = F605537D284FA7C700136545;
 			remoteInfo = QuoteMaker;
 		};
-		F60F52E0284E46B2008D75B3 /* PBXContainerItemProxy */ = {
+		F605539F284FA7C700136545 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F60F52B7284E46AF008D75B3 /* Project object */;
+			containerPortal = F6055376284FA7C700136545 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F60F52BE284E46AF008D75B3;
+			remoteGlobalIDString = F605537D284FA7C700136545;
 			remoteInfo = QuoteMaker;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F60F52BF284E46AF008D75B3 /* QuoteMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F60F52C2284E46AF008D75B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F60F52C4284E46AF008D75B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F60F52C6284E46AF008D75B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F60F52C9284E46AF008D75B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F60F52CB284E46B2008D75B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F60F52CE284E46B2008D75B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F60F52D0284E46B2008D75B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F60F52D5284E46B2008D75B3 /* QuoteMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F60F52D9284E46B2008D75B3 /* QuoteMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMakerTests.swift; sourceTree = "<group>"; };
-		F60F52DF284E46B2008D75B3 /* QuoteMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F60F52E3284E46B2008D75B3 /* QuoteMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMakerUITests.swift; sourceTree = "<group>"; };
-		F60F52E5284E46B2008D75B3 /* QuoteMakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F60F532E284F8EBE008D75B3 /* quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quotes.swift; sourceTree = "<group>"; };
+		F605537E284FA7C700136545 /* QuoteMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuoteMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6055381284FA7C700136545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6055383284FA7C700136545 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6055385284FA7C700136545 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6055388284FA7C700136545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F605538A284FA7C700136545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F605538D284FA7C700136545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F605538F284FA7C700136545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6055394284FA7C700136545 /* QuoteMakerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteMakerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6055398284FA7C700136545 /* QuoteMakerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMakerTests.swift; sourceTree = "<group>"; };
+		F605539E284FA7C700136545 /* QuoteMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60553A2284FA7C700136545 /* QuoteMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMakerUITests.swift; sourceTree = "<group>"; };
+		F60553A4284FA7C700136545 /* QuoteMakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F60F52BC284E46AF008D75B3 /* Frameworks */ = {
+		F605537B284FA7C700136545 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F60F52D2284E46B2008D75B3 /* Frameworks */ = {
+		F6055391284FA7C700136545 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F60F52DC284E46B2008D75B3 /* Frameworks */ = {
+		F605539B284FA7C700136545 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,54 +76,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F60F52B6284E46AF008D75B3 = {
+		F6055375284FA7C700136545 = {
 			isa = PBXGroup;
 			children = (
-				F60F52C1284E46AF008D75B3 /* QuoteMaker */,
-				F60F52D8284E46B2008D75B3 /* QuoteMakerTests */,
-				F60F52E2284E46B2008D75B3 /* QuoteMakerUITests */,
-				F60F52C0284E46AF008D75B3 /* Products */,
+				F6055380284FA7C700136545 /* QuoteMaker */,
+				F6055397284FA7C700136545 /* QuoteMakerTests */,
+				F60553A1284FA7C700136545 /* QuoteMakerUITests */,
+				F605537F284FA7C700136545 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F60F52C0284E46AF008D75B3 /* Products */ = {
+		F605537F284FA7C700136545 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F60F52BF284E46AF008D75B3 /* QuoteMaker.app */,
-				F60F52D5284E46B2008D75B3 /* QuoteMakerTests.xctest */,
-				F60F52DF284E46B2008D75B3 /* QuoteMakerUITests.xctest */,
+				F605537E284FA7C700136545 /* QuoteMaker.app */,
+				F6055394284FA7C700136545 /* QuoteMakerTests.xctest */,
+				F605539E284FA7C700136545 /* QuoteMakerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F60F52C1284E46AF008D75B3 /* QuoteMaker */ = {
+		F6055380284FA7C700136545 /* QuoteMaker */ = {
 			isa = PBXGroup;
 			children = (
-				F60F52C2284E46AF008D75B3 /* AppDelegate.swift */,
-				F60F52C4284E46AF008D75B3 /* SceneDelegate.swift */,
-				F60F52C6284E46AF008D75B3 /* ViewController.swift */,
-				F60F52C8284E46AF008D75B3 /* Main.storyboard */,
-				F60F52CB284E46B2008D75B3 /* Assets.xcassets */,
-				F60F52CD284E46B2008D75B3 /* LaunchScreen.storyboard */,
-				F60F52D0284E46B2008D75B3 /* Info.plist */,
-				F60F532E284F8EBE008D75B3 /* quotes.swift */,
+				F6055381284FA7C700136545 /* AppDelegate.swift */,
+				F6055383284FA7C700136545 /* SceneDelegate.swift */,
+				F6055385284FA7C700136545 /* ViewController.swift */,
+				F6055387284FA7C700136545 /* Main.storyboard */,
+				F605538A284FA7C700136545 /* Assets.xcassets */,
+				F605538C284FA7C700136545 /* LaunchScreen.storyboard */,
+				F605538F284FA7C700136545 /* Info.plist */,
 			);
 			path = QuoteMaker;
 			sourceTree = "<group>";
 		};
-		F60F52D8284E46B2008D75B3 /* QuoteMakerTests */ = {
+		F6055397284FA7C700136545 /* QuoteMakerTests */ = {
 			isa = PBXGroup;
 			children = (
-				F60F52D9284E46B2008D75B3 /* QuoteMakerTests.swift */,
+				F6055398284FA7C700136545 /* QuoteMakerTests.swift */,
 			);
 			path = QuoteMakerTests;
 			sourceTree = "<group>";
 		};
-		F60F52E2284E46B2008D75B3 /* QuoteMakerUITests */ = {
+		F60553A1284FA7C700136545 /* QuoteMakerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F60F52E3284E46B2008D75B3 /* QuoteMakerUITests.swift */,
-				F60F52E5284E46B2008D75B3 /* QuoteMakerUITestsLaunchTests.swift */,
+				F60553A2284FA7C700136545 /* QuoteMakerUITests.swift */,
+				F60553A4284FA7C700136545 /* QuoteMakerUITestsLaunchTests.swift */,
 			);
 			path = QuoteMakerUITests;
 			sourceTree = "<group>";
@@ -133,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F60F52BE284E46AF008D75B3 /* QuoteMaker */ = {
+		F605537D284FA7C700136545 /* QuoteMaker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F60F52E9284E46B2008D75B3 /* Build configuration list for PBXNativeTarget "QuoteMaker" */;
+			buildConfigurationList = F60553A8284FA7C700136545 /* Build configuration list for PBXNativeTarget "QuoteMaker" */;
 			buildPhases = (
-				F60F52BB284E46AF008D75B3 /* Sources */,
-				F60F52BC284E46AF008D75B3 /* Frameworks */,
-				F60F52BD284E46AF008D75B3 /* Resources */,
+				F605537A284FA7C700136545 /* Sources */,
+				F605537B284FA7C700136545 /* Frameworks */,
+				F605537C284FA7C700136545 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,69 +144,69 @@
 			);
 			name = QuoteMaker;
 			productName = QuoteMaker;
-			productReference = F60F52BF284E46AF008D75B3 /* QuoteMaker.app */;
+			productReference = F605537E284FA7C700136545 /* QuoteMaker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F60F52D4284E46B2008D75B3 /* QuoteMakerTests */ = {
+		F6055393284FA7C700136545 /* QuoteMakerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F60F52EC284E46B2008D75B3 /* Build configuration list for PBXNativeTarget "QuoteMakerTests" */;
+			buildConfigurationList = F60553AB284FA7C700136545 /* Build configuration list for PBXNativeTarget "QuoteMakerTests" */;
 			buildPhases = (
-				F60F52D1284E46B2008D75B3 /* Sources */,
-				F60F52D2284E46B2008D75B3 /* Frameworks */,
-				F60F52D3284E46B2008D75B3 /* Resources */,
+				F6055390284FA7C700136545 /* Sources */,
+				F6055391284FA7C700136545 /* Frameworks */,
+				F6055392284FA7C700136545 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F60F52D7284E46B2008D75B3 /* PBXTargetDependency */,
+				F6055396284FA7C700136545 /* PBXTargetDependency */,
 			);
 			name = QuoteMakerTests;
 			productName = QuoteMakerTests;
-			productReference = F60F52D5284E46B2008D75B3 /* QuoteMakerTests.xctest */;
+			productReference = F6055394284FA7C700136545 /* QuoteMakerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F60F52DE284E46B2008D75B3 /* QuoteMakerUITests */ = {
+		F605539D284FA7C700136545 /* QuoteMakerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F60F52EF284E46B2008D75B3 /* Build configuration list for PBXNativeTarget "QuoteMakerUITests" */;
+			buildConfigurationList = F60553AE284FA7C700136545 /* Build configuration list for PBXNativeTarget "QuoteMakerUITests" */;
 			buildPhases = (
-				F60F52DB284E46B2008D75B3 /* Sources */,
-				F60F52DC284E46B2008D75B3 /* Frameworks */,
-				F60F52DD284E46B2008D75B3 /* Resources */,
+				F605539A284FA7C700136545 /* Sources */,
+				F605539B284FA7C700136545 /* Frameworks */,
+				F605539C284FA7C700136545 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F60F52E1284E46B2008D75B3 /* PBXTargetDependency */,
+				F60553A0284FA7C700136545 /* PBXTargetDependency */,
 			);
 			name = QuoteMakerUITests;
 			productName = QuoteMakerUITests;
-			productReference = F60F52DF284E46B2008D75B3 /* QuoteMakerUITests.xctest */;
+			productReference = F605539E284FA7C700136545 /* QuoteMakerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F60F52B7284E46AF008D75B3 /* Project object */ = {
+		F6055376284FA7C700136545 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					F60F52BE284E46AF008D75B3 = {
+					F605537D284FA7C700136545 = {
 						CreatedOnToolsVersion = 13.4;
 					};
-					F60F52D4284E46B2008D75B3 = {
+					F6055393284FA7C700136545 = {
 						CreatedOnToolsVersion = 13.4;
-						TestTargetID = F60F52BE284E46AF008D75B3;
+						TestTargetID = F605537D284FA7C700136545;
 					};
-					F60F52DE284E46B2008D75B3 = {
+					F605539D284FA7C700136545 = {
 						CreatedOnToolsVersion = 13.4;
-						TestTargetID = F60F52BE284E46AF008D75B3;
+						TestTargetID = F605537D284FA7C700136545;
 					};
 				};
 			};
-			buildConfigurationList = F60F52BA284E46AF008D75B3 /* Build configuration list for PBXProject "QuoteMaker" */;
+			buildConfigurationList = F6055379284FA7C700136545 /* Build configuration list for PBXProject "QuoteMaker" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = F60F52B6284E46AF008D75B3;
-			productRefGroup = F60F52C0284E46AF008D75B3 /* Products */;
+			mainGroup = F6055375284FA7C700136545;
+			productRefGroup = F605537F284FA7C700136545 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F60F52BE284E46AF008D75B3 /* QuoteMaker */,
-				F60F52D4284E46B2008D75B3 /* QuoteMakerTests */,
-				F60F52DE284E46B2008D75B3 /* QuoteMakerUITests */,
+				F605537D284FA7C700136545 /* QuoteMaker */,
+				F6055393284FA7C700136545 /* QuoteMakerTests */,
+				F605539D284FA7C700136545 /* QuoteMakerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F60F52BD284E46AF008D75B3 /* Resources */ = {
+		F605537C284FA7C700136545 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60F52CF284E46B2008D75B3 /* LaunchScreen.storyboard in Resources */,
-				F60F52CC284E46B2008D75B3 /* Assets.xcassets in Resources */,
-				F60F52CA284E46AF008D75B3 /* Main.storyboard in Resources */,
+				F605538E284FA7C700136545 /* LaunchScreen.storyboard in Resources */,
+				F605538B284FA7C700136545 /* Assets.xcassets in Resources */,
+				F6055389284FA7C700136545 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F60F52D3284E46B2008D75B3 /* Resources */ = {
+		F6055392284FA7C700136545 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F60F52DD284E46B2008D75B3 /* Resources */ = {
+		F605539C284FA7C700136545 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,62 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F60F52BB284E46AF008D75B3 /* Sources */ = {
+		F605537A284FA7C700136545 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60F532F284F8EBE008D75B3 /* quotes.swift in Sources */,
-				F60F52C7284E46AF008D75B3 /* ViewController.swift in Sources */,
-				F60F52C3284E46AF008D75B3 /* AppDelegate.swift in Sources */,
-				F60F52C5284E46AF008D75B3 /* SceneDelegate.swift in Sources */,
+				F6055386284FA7C700136545 /* ViewController.swift in Sources */,
+				F6055382284FA7C700136545 /* AppDelegate.swift in Sources */,
+				F6055384284FA7C700136545 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F60F52D1284E46B2008D75B3 /* Sources */ = {
+		F6055390284FA7C700136545 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60F52DA284E46B2008D75B3 /* QuoteMakerTests.swift in Sources */,
+				F6055399284FA7C700136545 /* QuoteMakerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F60F52DB284E46B2008D75B3 /* Sources */ = {
+		F605539A284FA7C700136545 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60F52E6284E46B2008D75B3 /* QuoteMakerUITestsLaunchTests.swift in Sources */,
-				F60F52E4284E46B2008D75B3 /* QuoteMakerUITests.swift in Sources */,
+				F60553A5284FA7C700136545 /* QuoteMakerUITestsLaunchTests.swift in Sources */,
+				F60553A3284FA7C700136545 /* QuoteMakerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F60F52D7284E46B2008D75B3 /* PBXTargetDependency */ = {
+		F6055396284FA7C700136545 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F60F52BE284E46AF008D75B3 /* QuoteMaker */;
-			targetProxy = F60F52D6284E46B2008D75B3 /* PBXContainerItemProxy */;
+			target = F605537D284FA7C700136545 /* QuoteMaker */;
+			targetProxy = F6055395284FA7C700136545 /* PBXContainerItemProxy */;
 		};
-		F60F52E1284E46B2008D75B3 /* PBXTargetDependency */ = {
+		F60553A0284FA7C700136545 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F60F52BE284E46AF008D75B3 /* QuoteMaker */;
-			targetProxy = F60F52E0284E46B2008D75B3 /* PBXContainerItemProxy */;
+			target = F605537D284FA7C700136545 /* QuoteMaker */;
+			targetProxy = F605539F284FA7C700136545 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F60F52C8284E46AF008D75B3 /* Main.storyboard */ = {
+		F6055387284FA7C700136545 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F60F52C9284E46AF008D75B3 /* Base */,
+				F6055388284FA7C700136545 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F60F52CD284E46B2008D75B3 /* LaunchScreen.storyboard */ = {
+		F605538C284FA7C700136545 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F60F52CE284E46B2008D75B3 /* Base */,
+				F605538D284FA7C700136545 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F60F52E7284E46B2008D75B3 /* Debug */ = {
+		F60553A6284FA7C700136545 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		F60F52E8284E46B2008D75B3 /* Release */ = {
+		F60553A7284FA7C700136545 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,7 +430,7 @@
 			};
 			name = Release;
 		};
-		F60F52EA284E46B2008D75B3 /* Debug */ = {
+		F60553A9284FA7C700136545 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -461,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		F60F52EB284E46B2008D75B3 /* Release */ = {
+		F60553AA284FA7C700136545 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -488,7 +484,7 @@
 			};
 			name = Release;
 		};
-		F60F52ED284E46B2008D75B3 /* Debug */ = {
+		F60553AC284FA7C700136545 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -507,7 +503,7 @@
 			};
 			name = Debug;
 		};
-		F60F52EE284E46B2008D75B3 /* Release */ = {
+		F60553AD284FA7C700136545 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,7 +522,7 @@
 			};
 			name = Release;
 		};
-		F60F52F0284E46B2008D75B3 /* Debug */ = {
+		F60553AF284FA7C700136545 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -543,7 +539,7 @@
 			};
 			name = Debug;
 		};
-		F60F52F1284E46B2008D75B3 /* Release */ = {
+		F60553B0284FA7C700136545 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -563,43 +559,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F60F52BA284E46AF008D75B3 /* Build configuration list for PBXProject "QuoteMaker" */ = {
+		F6055379284FA7C700136545 /* Build configuration list for PBXProject "QuoteMaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F60F52E7284E46B2008D75B3 /* Debug */,
-				F60F52E8284E46B2008D75B3 /* Release */,
+				F60553A6284FA7C700136545 /* Debug */,
+				F60553A7284FA7C700136545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F60F52E9284E46B2008D75B3 /* Build configuration list for PBXNativeTarget "QuoteMaker" */ = {
+		F60553A8284FA7C700136545 /* Build configuration list for PBXNativeTarget "QuoteMaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F60F52EA284E46B2008D75B3 /* Debug */,
-				F60F52EB284E46B2008D75B3 /* Release */,
+				F60553A9284FA7C700136545 /* Debug */,
+				F60553AA284FA7C700136545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F60F52EC284E46B2008D75B3 /* Build configuration list for PBXNativeTarget "QuoteMakerTests" */ = {
+		F60553AB284FA7C700136545 /* Build configuration list for PBXNativeTarget "QuoteMakerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F60F52ED284E46B2008D75B3 /* Debug */,
-				F60F52EE284E46B2008D75B3 /* Release */,
+				F60553AC284FA7C700136545 /* Debug */,
+				F60553AD284FA7C700136545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F60F52EF284E46B2008D75B3 /* Build configuration list for PBXNativeTarget "QuoteMakerUITests" */ = {
+		F60553AE284FA7C700136545 /* Build configuration list for PBXNativeTarget "QuoteMakerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F60F52F0284E46B2008D75B3 /* Debug */,
-				F60F52F1284E46B2008D75B3 /* Release */,
+				F60553AF284FA7C700136545 /* Debug */,
+				F60553B0284FA7C700136545 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F60F52B7284E46AF008D75B3 /* Project object */;
+	rootObject = F6055376284FA7C700136545 /* Project object */;
 }

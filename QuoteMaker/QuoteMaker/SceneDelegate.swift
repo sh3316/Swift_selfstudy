@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  QuoteMaker
 //
-//  Created by Seunghui Huh on 2022/06/06.
+//  Created by Seunghui Huh on 2022/06/08.
 //
 
 import UIKit
