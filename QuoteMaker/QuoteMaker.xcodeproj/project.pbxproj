@@ -16,6 +16,7 @@
 		F60F52DA284E46B2008D75B3 /* QuoteMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F52D9284E46B2008D75B3 /* QuoteMakerTests.swift */; };
 		F60F52E4284E46B2008D75B3 /* QuoteMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F52E3284E46B2008D75B3 /* QuoteMakerUITests.swift */; };
 		F60F52E6284E46B2008D75B3 /* QuoteMakerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F52E5284E46B2008D75B3 /* QuoteMakerUITestsLaunchTests.swift */; };
+		F60F532F284F8EBE008D75B3 /* quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60F532E284F8EBE008D75B3 /* quotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F60F52DF284E46B2008D75B3 /* QuoteMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuoteMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60F52E3284E46B2008D75B3 /* QuoteMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMakerUITests.swift; sourceTree = "<group>"; };
 		F60F52E5284E46B2008D75B3 /* QuoteMakerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteMakerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F60F532E284F8EBE008D75B3 /* quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				F60F52CB284E46B2008D75B3 /* Assets.xcassets */,
 				F60F52CD284E46B2008D75B3 /* LaunchScreen.storyboard */,
 				F60F52D0284E46B2008D75B3 /* Info.plist */,
+				F60F532E284F8EBE008D75B3 /* quotes.swift */,
 			);
 			path = QuoteMaker;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F60F532F284F8EBE008D75B3 /* quotes.swift in Sources */,
 				F60F52C7284E46AF008D75B3 /* ViewController.swift in Sources */,
 				F60F52C3284E46AF008D75B3 /* AppDelegate.swift in Sources */,
 				F60F52C5284E46AF008D75B3 /* SceneDelegate.swift in Sources */,
