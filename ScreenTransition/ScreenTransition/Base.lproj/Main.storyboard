@@ -132,7 +132,7 @@
         <!--Codepresent View Controller-->
         <scene sceneID="lFi-Ie-al6">
             <objects>
-                <viewController storyboardIdentifier="CodePresentViewController" modalTransitionStyle="flipHorizontal" modalPresentationStyle="fullScreen" id="yvq-Cf-gSr" customClass="codepresentViewController" customModule="ScreenTransition" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CodePresentViewController" modalTransitionStyle="flipHorizontal" id="yvq-Cf-gSr" customClass="codepresentViewController" customModule="ScreenTransition" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AKz-de-Ad2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

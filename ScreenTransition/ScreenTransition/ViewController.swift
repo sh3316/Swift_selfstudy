@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBAction func CodePresentButton(_ sender: UIButton) {
         guard let codepresentviewcontroller = self.storyboard?.instantiateViewController(withIdentifier: "CodePresentViewController")
         else {return}
+        codepresentviewcontroller.modalPresentationStyle = .fullScreen
         self.present(codepresentviewcontroller, animated: true)
     }
     
