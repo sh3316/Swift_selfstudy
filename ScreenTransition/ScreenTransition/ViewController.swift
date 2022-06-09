@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         else {return}
         self.navigationController?.pushViewController(codepushedviewcontroller, animated: true)
     }
+    
+    @IBAction func CodePresentButton(_ sender: UIButton) {
+        guard let codepresentviewcontroller = self.storyboard?.instantiateViewController(withIdentifier: "CodePresentViewController")
+        else {return}
+        self.present(codepresentviewcontroller, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

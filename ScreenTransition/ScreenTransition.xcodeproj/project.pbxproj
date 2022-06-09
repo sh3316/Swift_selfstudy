@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6064E40285236E2008DC675 /* codepushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6064E3F285236E2008DC675 /* codepushViewController.swift */; };
 		F64A98132850E39A006F2D9D /* SeguePresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A98122850E39A006F2D9D /* SeguePresentViewController.swift */; };
 		F64AF23E2850B2870098CCE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64AF23D2850B2870098CCE4 /* AppDelegate.swift */; };
 		F64AF2402850B2870098CCE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64AF23F2850B2870098CCE4 /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 		F64AF25F2850B2890098CCE4 /* ScreenTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64AF25E2850B2890098CCE4 /* ScreenTransitionUITests.swift */; };
 		F64AF2612850B2890098CCE4 /* ScreenTransitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64AF2602850B2890098CCE4 /* ScreenTransitionUITestsLaunchTests.swift */; };
 		F64AF2702850D9190098CCE4 /* SegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64AF26F2850D9190098CCE4 /* SegueViewController.swift */; };
+		F69F722D285238A4000D8763 /* codepresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69F722C285238A4000D8763 /* codepresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F6064E3F285236E2008DC675 /* codepushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepushViewController.swift; sourceTree = "<group>"; };
 		F64A98122850E39A006F2D9D /* SeguePresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePresentViewController.swift; sourceTree = "<group>"; };
 		F64AF23A2850B2870098CCE4 /* ScreenTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64AF23D2850B2870098CCE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		F64AF25E2850B2890098CCE4 /* ScreenTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionUITests.swift; sourceTree = "<group>"; };
 		F64AF2602850B2890098CCE4 /* ScreenTransitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTransitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F64AF26F2850D9190098CCE4 /* SegueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueViewController.swift; sourceTree = "<group>"; };
+		F69F722C285238A4000D8763 /* codepresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codepresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				F64AF24B2850B2890098CCE4 /* Info.plist */,
 				F64AF26F2850D9190098CCE4 /* SegueViewController.swift */,
 				F64A98122850E39A006F2D9D /* SeguePresentViewController.swift */,
+				F6064E3F285236E2008DC675 /* codepushViewController.swift */,
+				F69F722C285238A4000D8763 /* codepresentViewController.swift */,
 			);
 			path = ScreenTransition;
 			sourceTree = "<group>";
@@ -265,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F64AF2702850D9190098CCE4 /* SegueViewController.swift in Sources */,
+				F6064E40285236E2008DC675 /* codepushViewController.swift in Sources */,
 				F64AF2422850B2870098CCE4 /* ViewController.swift in Sources */,
+				F69F722D285238A4000D8763 /* codepresentViewController.swift in Sources */,
 				F64AF23E2850B2870098CCE4 /* AppDelegate.swift in Sources */,
 				F64A98132850E39A006F2D9D /* SeguePresentViewController.swift in Sources */,
 				F64AF2402850B2870098CCE4 /* SceneDelegate.swift in Sources */,
