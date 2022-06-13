@@ -23,10 +23,22 @@ class ViewController: UIViewController {
     }
     
     override func viewDidLoad() {
+
         super.viewDidLoad()
+        print("view did load")
         // Do any additional setup after loading the view.
     }
-
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("view will appear")
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("view will disappear")
+    }
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print("viwe did disappear")
+    }
 }
 
