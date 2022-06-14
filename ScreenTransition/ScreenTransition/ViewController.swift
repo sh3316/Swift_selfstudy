@@ -10,14 +10,16 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func CodePushButton(_ sender: UIButton) {
-        guard let codepushedviewcontroller = self.storyboard?.instantiateViewController(identifier: "CodePushViewController")
+        guard let codepushedviewcontroller = self.storyboard?.instantiateViewController(identifier: "CodePushViewController") as? codepushViewController
         else {return}
+        codepushedviewcontroller.name = "SeungHui"
         self.navigationController?.pushViewController(codepushedviewcontroller, animated: true)
     }
     
     @IBAction func CodePresentButton(_ sender: UIButton) {
-        guard let codepresentviewcontroller = self.storyboard?.instantiateViewController(withIdentifier: "CodePresentViewController")
+        guard let codepresentviewcontroller = self.storyboard?.instantiateViewController(withIdentifier: "CodePresentViewController") as? codepresentViewController
         else {return}
+        codepresentviewcontroller.name = "SeungHui"
         codepresentviewcontroller.modalPresentationStyle = .fullScreen
         self.present(codepresentviewcontroller, animated: true)
     }

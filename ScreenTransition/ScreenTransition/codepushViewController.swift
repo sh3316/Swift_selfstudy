@@ -8,13 +8,20 @@
 import UIKit
 
 class codepushViewController: UIViewController {
-
+    var name:String?
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    
     @IBAction func codepushBack(_ sender: UIButton) {
         self.navigationController?.popToRootViewController(animated: true)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if let name = name {
+            self.nameLabel.text = name
+        }
+        nameLabel.sizeToFit()
         // Do any additional setup after loading the view.
     }
     

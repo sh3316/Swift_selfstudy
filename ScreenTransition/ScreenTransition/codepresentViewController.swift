@@ -8,13 +8,20 @@
 import UIKit
 
 class codepresentViewController: UIViewController {
-
+    var name: String?
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    
     @IBAction func codepresentBackButton(_ sender: UIButton) {
         self.presentingViewController?.dismiss(animated: true)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if let name = name {
+            self.nameLabel.text = name
+        }
+        nameLabel.sizeToFit()
         // Do any additional setup after loading the view.
     }
     
