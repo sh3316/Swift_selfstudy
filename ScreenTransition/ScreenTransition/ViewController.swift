@@ -8,7 +8,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var codepushLabel: UILabel!
+    @IBOutlet weak var codepresentLabel: UILabel!
+    
+    
     @IBAction func CodePushButton(_ sender: UIButton) {
         guard let codepushedviewcontroller = self.storyboard?.instantiateViewController(identifier: "CodePushViewController") as? codepushViewController
         else {return}
