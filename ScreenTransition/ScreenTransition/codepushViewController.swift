@@ -7,14 +7,18 @@
 
 import UIKit
 
+protocol PushProtocol: AnyObject{
+    func sendpushname(name:String)
+}
 
 class codepushViewController: UIViewController {
     var name:String?
-    
+    weak var delegate:PushProtocol?
     @IBOutlet weak var nameLabel: UILabel!
     
     
     @IBAction func codepushBack(_ sender: UIButton) {
+        self.delegate?.sendpushname(name: "push button")
         self.navigationController?.popToRootViewController(animated: true)
     }
     override func viewDidLoad() {

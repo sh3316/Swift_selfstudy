@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, SendNameDelegate {
+class ViewController: UIViewController, SendNameDelegate, PushProtocol {
     @IBOutlet weak var codepushLabel: UILabel!
     @IBOutlet weak var codepresentLabel: UILabel!
     
@@ -15,6 +15,7 @@ class ViewController: UIViewController, SendNameDelegate {
     @IBAction func CodePushButton(_ sender: UIButton) {
         guard let codepushedviewcontroller = self.storyboard?.instantiateViewController(identifier: "CodePushViewController") as? codepushViewController
         else {return}
+        codepushedviewcontroller.delegate = self
         codepushedviewcontroller.name = "push pressed"
         self.navigationController?.pushViewController(codepushedviewcontroller, animated: true)
     }
@@ -49,6 +50,10 @@ class ViewController: UIViewController, SendNameDelegate {
     func sendname(name: String) {
         self.codepresentLabel.text = name
         self.codepresentLabel.sizeToFit()
+    }
+    func sendpushname(name: String) {
+        self.codepushLabel.text = name
+        self.codepushLabel.sizeToFit()
     }
 }
 
