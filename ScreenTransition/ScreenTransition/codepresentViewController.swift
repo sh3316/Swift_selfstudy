@@ -7,13 +7,18 @@
 
 import UIKit
 
+protocol SendNameDelegate: AnyObject {
+    func sendname(name:String)
+}
+
 class codepresentViewController: UIViewController {
     var name: String?
-    
+    weak var delegate:SendNameDelegate?
     @IBOutlet weak var nameLabel: UILabel!
     
     
     @IBAction func codepresentBackButton(_ sender: UIButton) {
+        self.delegate?.sendname(name: "Present Button Pressed")
         self.presentingViewController?.dismiss(animated: true)
     }
     override func viewDidLoad() {

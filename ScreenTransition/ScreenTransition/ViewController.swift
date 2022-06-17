@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, SendNameDelegate {
     @IBOutlet weak var codepushLabel: UILabel!
     @IBOutlet weak var codepresentLabel: UILabel!
     
@@ -15,20 +15,21 @@ class ViewController: UIViewController {
     @IBAction func CodePushButton(_ sender: UIButton) {
         guard let codepushedviewcontroller = self.storyboard?.instantiateViewController(identifier: "CodePushViewController") as? codepushViewController
         else {return}
-        codepushedviewcontroller.name = "SeungHui"
+        codepushedviewcontroller.name = "push pressed"
         self.navigationController?.pushViewController(codepushedviewcontroller, animated: true)
     }
     
     @IBAction func CodePresentButton(_ sender: UIButton) {
         guard let codepresentviewcontroller = self.storyboard?.instantiateViewController(withIdentifier: "CodePresentViewController") as? codepresentViewController
         else {return}
-        codepresentviewcontroller.name = "SeungHui"
+        codepresentviewcontroller.name = "present button pressed"
+        codepresentviewcontroller.delegate = self
         codepresentviewcontroller.modalPresentationStyle = .fullScreen
         self.present(codepresentviewcontroller, animated: true)
     }
     
     override func viewDidLoad() {
-
+        
         super.viewDidLoad()
         print("view did load")
         // Do any additional setup after loading the view.
@@ -43,7 +44,11 @@ class ViewController: UIViewController {
     }
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        print("viwe did disappear")
+        print("view did disappear")
+    }
+    func sendname(name: String) {
+        self.codepresentLabel.text = name
+        self.codepresentLabel.sizeToFit()
     }
 }
 
