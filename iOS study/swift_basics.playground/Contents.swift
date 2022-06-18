@@ -1,5 +1,4 @@
 import UIKit
-import Foundation
 
 /*
 var onearray: Array<Int> = Array<Int>()
@@ -97,43 +96,61 @@ print(sendmessage(from: "Chris", to: "Sean"))
 //var user3:User? = User(age:23)
 //user3 = nil
 
-enum ErrorTypes: Error{
-    case unkown
-    case LowBattery(remainBattery:Int)
-}
-
-//throw ErrorTypes.LowBattery(remainBattery: 10)
-func battercheck(battery: Int) throws -> String{
-    guard battery != -1 else { throw ErrorTypes.unkown }
-    guard battery > 20 else { throw ErrorTypes.LowBattery(remainBattery: battery)}
-    return "배터리 정상"
-}
-
-//do {
-//    try battercheck(battery: 20)
-//} catch ErrorTypes.unkown {
-//    print("unkonwn")
-//} catch ErrorTypes.LowBattery {
-//    print("low battery")
-//} catch{
-//    "undefined"
+//enum ErrorTypes: Error{
+//    case unkown
+//    case LowBattery(remainBattery:Int)
 //}
+//
+////throw ErrorTypes.LowBattery(remainBattery: 10)
+//func battercheck(battery: Int) throws -> String{
+//    guard battery != -1 else { throw ErrorTypes.unkown }
+//    guard battery > 20 else { throw ErrorTypes.LowBattery(remainBattery: battery)}
+//    return "배터리 정상"
+//}
+//
+////do {
+////    try battercheck(battery: 20)
+////} catch ErrorTypes.unkown {
+////    print("unkonwn")
+////} catch ErrorTypes.LowBattery {
+////    print("low battery")
+////} catch{
+////    "undefined"
+////}
+//
+////var errorstatus = try? battercheck(battery: 20)
+////print(errorstatus)
+//
+//
+//let hello = {
+//    ()->() in
+//    print("hello")
+//}
+//
+////map, filter, reduce
+//let array1 = [0,1,2,3,4]
+//let array2 = array1.map{(number) -> Int in
+//    return number*2
+//}
+//
+//let array3 = [2,433,341,13,14523,3]
+//let filterarray = array3.filter{$0>100}
+//print(filterarray)
 
-//var errorstatus = try? battercheck(battery: 20)
-//print(errorstatus)
+let digitNames = [
+    0: "Zero", 1: "One", 2: "Two",   3: "Three", 4: "Four",
+    5: "Five", 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine"
+]
+let numbers = [16, 58, 510]
 
-
-let hello = {
-    ()->() in
-    print("hello")
+let strings = numbers.map { (number) -> String in
+    var number = number
+    var output = ""
+    repeat {
+        output = digitNames[number % 10]! + output
+        number /= 10
+    } while number > 0
+    return output
 }
-
-//map, filter, reduce
-let array1 = [0,1,2,3,4]
-let array2 = array1.map{(number) -> Int in
-    return number*2
-}
-
-let array3 = [2,433,341,13,14523,3]
-let filterarray = array3.filter{$0>100}
-print(filterarray)
+// let strings는 타입 추론에 의해 문자 배열([String])타입을 갖습니다.
+// 결과는 숫자가 문자로 바뀐 ["OneSix", "FiveEight", "FiveOneZero"]가 됩니다.
