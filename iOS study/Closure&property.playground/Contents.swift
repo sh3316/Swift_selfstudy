@@ -29,9 +29,9 @@ struct Rect {
             let centerY = origin.y + (size.height / 2)
             return Point(x: centerX, y: centerY)
         }
-        set(newCenter) {
-            origin.x = newCenter.x - (size.width / 2)
-            origin.y = newCenter.y - (size.height / 2)
+        set {
+            origin.x = newValue.x - (size.width / 2)
+            origin.y = newValue.y - (size.height / 2)
         }
     }
 }
