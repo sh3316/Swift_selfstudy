@@ -76,14 +76,11 @@ class NodeMgnt{
     }
     func describe(){
         var head:Node = Node(data : self.data,next : self.next)
+        print(head.data)
         while (head.next != nil){
-            print(head.data)
             head = head.next!
+            print(head.data)
         }
     }
 }
-var linklist = NodeMgnt(data:0)
-linklist.add(num: 5)
-linklist.add(num: 15)
-linklist.add(num: 251)
-linklist.describe()
+
